@@ -1,8 +1,22 @@
 @import "theme.module";
 
-body{
-  background-color: $mainBg;
+$bg-image: url("./img/bg-body.png");
+
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.app{
-color: navajowhite;
+
+body {
+  background: linear-gradient(180deg, #3d405b70, #e07a5f70), $bg-image repeat;
+  background-size: 200px;
+}
+
+.app {
+  color: black;
+  font-family: $mainFont;
+  font-weight: 500;
+  font-size: 56px;
+  text-align: center;
 }
