@@ -29,3 +29,18 @@ yarn-error.log*
 # IDE files
 .idea/
 .vscode/
+
+# from template
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
